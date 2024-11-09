@@ -1,0 +1,48 @@
+# =============================================================================
+# Core : Packages used to run the project
+# =============================================================================
+numpy
+matplotlib
+scipy
+
+# =============================================================================
+# Testing
+# =============================================================================
+pytest                  # https://docs.pytest.org/en/7.2.x/
+ipython                 # https://ipython.org
+mypy
+pytest-mypy
+jupyter
+line_profiler[all]
+
+
+# =============================================================================
+# Documenting
+# =============================================================================
+sphinx >= 4
+docutils # == 0.16.0cd
+esbonio
+
+# ----------------------------------------------------------- sphinx extensions
+numpydoc
+sphinx-design
+sphinx-copybutton
+# sphinx-togglebutton
+# sphinx-panels
+# sphinx-autodoc-typehints
+sphinxcontrib-tikz
+sphinx-gallery          # https://sphinx-gallery.github.io/stable/getting_started.html
+pillow                  # requirement of sphinx-gallery
+
+# --------------------------------------------------------------- sphinx themes
+pydata-sphinx-theme >= 0.9.0
+
+
+# =============================================================================
+# building and distributing
+# =============================================================================
+build                   # https://pypa-build.readthedocs.io/en/latest/
+setuptools              # https://setuptools.pypa.io/en/latest/index.html
+
+# -------------------------------------------------------------- Upload to pypi
+twine                   # https://twine.readthedocs.io/en/stable/
