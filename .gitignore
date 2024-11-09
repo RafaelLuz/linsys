@@ -4,7 +4,8 @@
 # build
 __dist
 
-#
+# pycharm
+.idea
 
 # documentaton
 __docs/_build
