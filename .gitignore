@@ -1,6 +1,11 @@
 # pyenv
 .python-version
 
+# build
+__dist/*
+
+#
+
 # documentaton
 __docs/_build
 
